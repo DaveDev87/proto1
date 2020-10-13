@@ -11,7 +11,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/Noticia:id">
-          <Noticia/>
+          <Noticia />
         </Route>
       </Switch>
     </Router>
