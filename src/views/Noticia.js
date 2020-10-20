@@ -33,16 +33,10 @@ export default function Noticia() {
     return (
       <>
         <div className="jumbotron">
-    <h1 className="display-4">{data[0].titulo}</h1>
-          <p className="lead">
-            Autor: {data[0].autor}
-          </p>
-          <p className="lead">
-            Fecha: {data[0].fecha}
-          </p>
-          <p>
-            {data[0].contenido}
-          </p>
+          <h1 className="display-4">{data[0].titulo}</h1>
+          <p className="lead">Autor: {data[0].autor}</p>
+          <p className="lead">Fecha: {data[0].fecha}</p>
+          <p>{data[0].contenido}</p>
         </div>
       </>
     );
